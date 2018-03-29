@@ -14,7 +14,7 @@ import { ITEMS_PER_PAGE, Principal } from '../../shared';
 })
 export class ProductComponent implements OnInit, OnDestroy {
 
-    currentAccount: any;
+currentAccount: any;
     products: Product[];
     error: any;
     success: any;
@@ -28,7 +28,6 @@ export class ProductComponent implements OnInit, OnDestroy {
     predicate: any;
     previousPage: any;
     reverse: any;
-    filter: string;
 
     constructor(
         private productService: ProductService,
