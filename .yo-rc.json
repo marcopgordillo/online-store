@@ -37,6 +37,8 @@
       "en",
       "es",
       "fr"
-    ]
+    ],
+    "herokuDeployType": "git",
+    "herokuAppName": "immense-reef-54296"
   }
 }
